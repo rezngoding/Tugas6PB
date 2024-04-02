@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="grey_light">#D3D3D3</color>
+    <color name="merahmuda">#FA7070</color>
+    <color name="hijaupucat">#C6EBC5</color>
+    <color name="hijaukunyit">#706233</color>
+</resources>

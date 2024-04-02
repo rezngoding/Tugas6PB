@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="16dp"
+    android:paddingTop="24dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kuliner Nusantara"
+        android:textSize="32sp"
+        android:textColor="@color/hijaukunyit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Kuliner Nusantar"
+        android:textSize="32sp"
+        android:textColor="@color/hijaukunyit"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_light"
+        android:layout_below="@id/textViewSubtitle"
+        android:layout_marginBottom="16dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textViewSubtitle"
+        android:layout_marginTop="16dp" />
+
+    </RelativeLayout>
